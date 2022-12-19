@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sudo service httpd stop
+sudo yum remove httpd wgety unzip -y > /dev/null
+sudo rm -rf /var/www/html/*
